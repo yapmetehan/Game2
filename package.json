@@ -1,5 +1,5 @@
 {
-  "name": "dendrynexus",
+  "name": "dendrynexus-steam",
   "version": "0.0.1",
   "description": "Tools to create and build interactive fiction.",
   "keywords": [
@@ -50,6 +50,6 @@
     "upload-to-coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "bin": {
-    "dendrynexus": "lib/cli/main.js"
+    "dendrynexus-steam": "lib/cli/main.js"
   }
 }
