@@ -28,9 +28,9 @@ jobs:
         with:
           node-version: 20
       - name: Install
-        run: npm install -g dendrynexus
+        run: npm install
       - name: Build game
-        run: dendrynexus make-html
+        run: npx dendrynexus make-html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
