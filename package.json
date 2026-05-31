@@ -4,7 +4,7 @@
   "description": "Dendry",
   "main": "index.js",
   "scripts": {
-    "build": "dendrynexus make-html"
+    "build": "dendrynexus make-html --output ./out"
   },
   "dependencies": {
     "dendrynexus": "github:aucchen/dendrynexus"
