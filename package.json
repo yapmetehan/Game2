@@ -1,10 +1,12 @@
 {
-  "name": "dendry-game",
+  "name": "mygame",
   "version": "1.0.0",
+  "description": "Dendry",
+  "main": "index.js",
   "scripts": {
-    "dendry": "dendrynexus make-html"
+    "build": "dendrynexus make-html"
   },
   "dependencies": {
-    "dendrynexus": "^1.5.1"
+    "dendrynexus": "github:aucchen/dendrynexus"
   }
 }
