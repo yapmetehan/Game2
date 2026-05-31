@@ -6,7 +6,7 @@ DendryNexus
 [![Test Coverage](https://coveralls.io/repos/dendry/dendry/badge.png?branch=master)](https://coveralls.io/r/dendry/dendry)
 
 
-DendryNexus is an interactive fiction framework based on [Dendry](https://github.com/aucchen/dendry). It is a strict superset of dendry, and has all of its features, but in addition has support for the card-game paradigm used in the now-defunct [StoryNexus](http://wiki.failbettergames.com/). Unlike StoryNexus, DendryNexus works entirely in the browser and does not have a server component.
+DendryNexus is a interactive fiction framework based on [Dendry](https://github.com/aucchen/dendry). It is a strict superset of dendry, and has all of its features, but in addition has support for the card-game paradigm used in the now-defunct [StoryNexus](http://wiki.failbettergames.com/). Unlike StoryNexus, DendryNexus works entirely in the browser and does not have a server component.
 
 Right now, using DendryNexus is not recommended unless you have used dendry previously, are somewhat familiar with the StoryNexus paradign, and can debug js/html/css.
 
