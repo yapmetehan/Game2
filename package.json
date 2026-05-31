@@ -4,7 +4,7 @@
   "description": "Dendry",
   "main": "index.js",
   "scripts": {
-    "build": "dendrynexus make-html --output ./out"
+    "build": "dendrynexus make-html && cp game.json html/ && cp -r source/audio html/ 2>/dev/null || true && cp -r source/images html/ 2>/dev/null || true"
   },
   "dependencies": {
     "dendrynexus": "github:aucchen/dendrynexus"
